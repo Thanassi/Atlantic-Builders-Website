@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+}
+
+#main-img {
+	position: relative;
+	background: url("https://static.pexels.com/photos/259597/pexels-photo-259597.jpeg") no-repeat center center;
+	background-size: cover;
+	height: 65em;
+}
+
+.atlantic-header {
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: 2em;
+}
+
+h1 {
+	font-size: 60px;
+	color: blue;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+h2 {
+	font-size: 40px;
+	color: blue;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.atlantic-info {
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+@media (max-width: 588px) {
+	#main-img {
+		position: relative;
+		background: url("https://static.pexels.com/photos/259597/pexels-photo-259597.jpeg") no-repeat center center;
+		background-size: cover;
+		height: 240px;
+	}
+}
+
+.footer {
+	padding-top: 40px;
+	padding-bottom: 30px;
+	max-width: 100%;
+	position: relative;
+	display: block;
+	background-color: #4286f4;
+}
+
+.footer-border {
+	border-right: 1px solid #000000;
+	min-height: 12em;
+}
+
+.footer-col1 {
+	width: 30%;
+	padding-left: 3%;
+}
+
+.footer-col2 {
+	width: 40%;
+	padding-left: 5%;
+}
+
+.footer-col3 {
+	width: 30%;
+	padding-left: 3%;
+}
