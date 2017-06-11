@@ -9,6 +9,11 @@
 	height: 65em;
 }
 
+.body-photo {
+	margin: 0 auto;
+	padding-bottom: 2em;
+}
+
 .atlantic-header {
 	text-align: center;
 	margin-top: 3em;
@@ -34,12 +39,12 @@ h2 {
 	margin-bottom: 3em;
 }
 
-@media (max-width: 588px) {
+@media (max-width: 650px) {
 	#main-img {
 		position: relative;
 		background: url("https://static.pexels.com/photos/259597/pexels-photo-259597.jpeg") no-repeat center center;
 		background-size: cover;
-		height: 240px;
+		height: 20em;
 	}
 }
 
@@ -51,7 +56,7 @@ h2 {
 	display: block;
 	background-color: #4286f4;
 }
-
+/*
 .footer-border {
 	border-right: 1px solid #000000;
 	min-height: 12em;
@@ -71,3 +76,4 @@ h2 {
 	width: 30%;
 	padding-left: 3%;
 }
+*/
