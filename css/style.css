@@ -2,11 +2,22 @@
 	box-sizing: border-box;
 }
 
-#main-img {
+#home-img {
 	position: relative;
 	background: url("https://static.pexels.com/photos/259597/pexels-photo-259597.jpeg") no-repeat center center;
 	background-size: cover;
 	height: 55em;
+}
+
+.main-img {
+	position: relative;
+	background: url("https://previews.123rf.com/images/marincas_andrei/marincas_andrei1110/marincas_andrei111000262/10740538-under-construction-banner-Stock-Vector-construction.jpg") no-repeat center center;
+	background-size: cover;
+	height: 30em;
+}
+
+.body-area {
+	margin: 3em 0;
 }
 
 .body-photo {
