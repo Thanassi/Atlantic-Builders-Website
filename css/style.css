@@ -6,7 +6,7 @@
 	position: relative;
 	background: url("https://static.pexels.com/photos/259597/pexels-photo-259597.jpeg") no-repeat center center;
 	background-size: cover;
-	height: 65em;
+	height: 55em;
 }
 
 .body-photo {
@@ -21,14 +21,14 @@
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 50px;
 	color: blue;
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
 
 h2 {
-	font-size: 40px;
+	font-size: 35px;
 	color: blue;
 	margin-top: 0;
 	padding-top: 0;
@@ -56,24 +56,22 @@ h2 {
 	display: block;
 	background-color: #4286f4;
 }
-/*
-.footer-border {
-	border-right: 1px solid #000000;
-	min-height: 12em;
+
+.border {
+	border: 2px solid black;
 }
 
-.footer-col1 {
+.footer-1 {
 	width: 30%;
-	padding-left: 3%;
+	padding-left: 10%;
 }
 
-.footer-col2 {
+.footer-2 {
 	width: 40%;
-	padding-left: 5%;
+	padding-left: 8%;
 }
 
-.footer-col3 {
+.footer-3 {
 	width: 30%;
-	padding-left: 3%;
+	padding-left: 10%;
 }
-*/
