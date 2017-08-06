@@ -38,6 +38,21 @@ body {
 	width: 100%;
 }
 
+.main-photo {
+	object-fit: cover;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.main-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 15em;
+	margin-bottom: 2em;	
+	overflow: hidden;
+}
+
 .portfolio-container {
 	display: flex;
 	align-items: center;
