@@ -26,7 +26,7 @@ body {
 
 #home-img {
 	position: relative;
-	background: url("../img/Screen Shot 2017-06-09 at 10.12.54 AM.png") no-repeat center center;
+	background: url("../img/homepage/2 Buttonwood Ln.jpg") no-repeat center center;
 	background-size: cover;
 	height: 55em;
 }
@@ -48,7 +48,7 @@ body {
 }
 
 .body-area {
-	margin: 3em 0;
+	margin: 5em 0 3em 0;
 }
 
 .body-photo {
@@ -73,6 +73,7 @@ body {
 
 .portfolio-container {
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	margin-bottom: 2em;
 	height: 500px;
@@ -85,7 +86,7 @@ body {
 	margin-bottom: 2em;
 }
 
-p {
+p, h5 {
 	font-family: 'Merriweather', serif;
 }
 
